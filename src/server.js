@@ -6,7 +6,7 @@ let personsRoute = require('./routes/person'); //incluimos el router que viene d
 let addStudentRoute = require('./routes/addStudent');
 let studentRoute = require('./routes/student');
 
-app.use(express.urlencoded({ extended: falsea }))
+app.use(express.urlencoded({ extended: false }))
 app.set('view engine', 'ejs');
 app.use(personsRoute);
 app.use(studentRoute);
